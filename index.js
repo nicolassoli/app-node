@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-// Rota 1: Página inicial
 app.get('/', (req, res) => {
   res.send(`
     <h1>Bem-vindo à minha aplicação Node.js!</h1>
@@ -11,7 +10,6 @@ app.get('/', (req, res) => {
   `);
 });
 
-// Rota 2: Sobre
 app.get('/sobre', (req, res) => {
   res.send(`
     <h1>Sobre</h1>
@@ -20,7 +18,6 @@ app.get('/sobre', (req, res) => {
   `);
 });
 
-// Rota 3: Contato
 app.get('/contato', (req, res) => {
   res.send(`
     <h1>Contato</h1>
