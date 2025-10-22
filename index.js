@@ -21,7 +21,7 @@ app.get('/sobre', (req, res) => {
 app.get('/contato', (req, res) => {
   res.send(`
     <h1>Contato</h1>
-    <p>Entre em contato pelo email: nicolas@unifor.com</p>
+    <p>Entre em contato pelo email: nicolas1@unifor.com</p>
     <a href="/">Voltar</a>
   `);
 });
