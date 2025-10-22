@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/nicolassoli/app-node/issues"
   },
-  "homepage": "https://github.com/nicolassoli/app-node#readme"
+  "homepage": "https://github.com/nicolassoli/app-node#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
